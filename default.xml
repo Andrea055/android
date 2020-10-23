@@ -748,6 +748,7 @@
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" remote="aosp" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" remote="aosp" />
+  
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" remote="aosp" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" remote="aosp" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" remote="aosp" />
@@ -771,10 +772,13 @@
   <project path="kernel/Andrea055/Ginkgo_kernel" name="LineageOS/android:kernel_xiaomi_sm6125" remote="github" revision="lineage-17.1" />
   <project path="device/Andrea055/Ginkgo_Tree" name="LineageOS/android_device_xiaomi_ginkgo" remote="github" revision="lineage-17.1" />
   <project path="vendor/Andrea055" name="RevengeOS-Devices/vendor_xiaomi_ginkgo" remote="github" revision="10.0" />
+  <project path="dev/Andrea055/Ginkgo_Tree_Common" name="LineageOS/android_device_sm6125_common" remote="github" revision="lineage-17.1 />
+  <project path="dev/Andrea055/Ginkgo_Tree_Common" name="LineageOS/android_device_sm6125_common" remote="github" revision="lineage-17.1 />
   <include name="snippets/lineage.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
    <manifest>
-  <project path="dev/Andrea055/Ginkgo_Tree_Common" name="LineageOS/android_device_sm6125_common" remote="github" revision="lineage-17.1 />
+                                                                             
+  
                                                                                                                               
 
                                                                                                                               
