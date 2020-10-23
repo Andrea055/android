@@ -772,7 +772,7 @@
   <project path="kernel/Andrea055/Ginkgo_kernel" name="LineageOS/android:kernel_xiaomi_sm6125" remote="github" revision="lineage-17.1" />
   <project path="device/Andrea055/Ginkgo_Tree" name="LineageOS/android_device_xiaomi_ginkgo" remote="github" revision="lineage-17.1" />
   <project path="vendor/Andrea055" name="RevengeOS-Devices/vendor_xiaomi_ginkgo" remote="github" revision="10.0" />
-  <project path="vendor/Andrea055/Common" name="/LineageOS/android_device_xiaomi_sm6125-common" remote="github" revision="10.0" />
+  <project path="vendor/Andrea055/Common" name="LineageOS/android_device_xiaomi_sm6125-common" remote="github" revision="10.0" />
   <include name="snippets/lineage.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
    <manifest>
