@@ -774,5 +774,7 @@
   <include name="snippets/lineage.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
    <project path="device/Andrea055/Ginkgo_Tree_Common" name="LineageOS/android_device_sm6125_common" remote="github" revision="lineage-17.1 />
-</manifest>
+
+                                                                                                                               
+                                                                                                                                
   
